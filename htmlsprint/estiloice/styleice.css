@@ -1,0 +1,118 @@
+body{
+    background-color: pink; /* Cambia el color de fondo según tus preferencias */
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+:root{
+  font-size: 20px;/*tamaño de la letra en general*/
+}
+
+.home{
+  width: 100px; /* Ajusta el ancho del círculo según tus preferencias */
+  height: 100px; /* Ajusta la altura del círculo según tus preferencias */
+
+}
+a:visited{
+  color: white;
+  text-decoration: violet;
+}
+a:hover{
+  color: black;
+}
+a:active{
+  color: purple;
+  border:1px solid purple;
+  border-radius: 5px;
+}
+nav{
+  background-color: salmon;
+  color: white;
+  text-decoration: white;
+  height: 200px;
+  width: 200px;
+  border: 150px;
+  padding: 75px;
+  height: auto;
+  font-size: 24px;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container nav {
+  flex-grow: 1;
+}
+
+.titulocentral{
+  display: flex;
+  justify-content: center;
+}
+
+.foto {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.panqueque img{
+  width: 800px;
+  height: 300px;
+}
+
+.noticia-texto{
+  width: 30%;
+  float: left;
+}
+.noticia-imagen{
+  width: 50%;
+  float: right;
+}
+
+.noticia p{
+  text-align: left;
+}
+
+.noticia img{
+  float: right;
+  height: 50%; 
+  width: 50%;  
+}
+
+.homecentro{
+  display: flex;
+  justify-content: center;
+
+}
+
+.panqueque{
+  max-width: 800px;
+  max-height: 800px;
+}
+
+.logo{
+  background-color: salmon;
+  height: 5px;
+  width: 153px;
+  border: 100px;
+  padding: 12px;
+  height: auto;
+}
+
+.credito{
+  display: flex;
+  justify-content: center;
+  background-color: salmon;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
